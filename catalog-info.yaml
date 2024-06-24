@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: scaffoldedForm-test
+  description: scaffoldedForm-test
+  annotations:
+    github.com/project-slug: janus-test/scaffoldedForm-test
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/createdAt: 6/24/2024, 8:48:47 AM
+    custom.io/other: value
+  labels:
+    other: test-label
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/janus-authors
+  scaffoldedFrom: template:default/create-react-app-template-test-annotator

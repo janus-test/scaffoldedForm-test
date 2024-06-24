@@ -1,0 +1,8 @@
+site_name: "scaffoldedForm-test"
+site_description: "scaffoldedForm-test"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
